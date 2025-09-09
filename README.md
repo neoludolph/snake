@@ -4,13 +4,13 @@
 
 ## Dev Setup
 
-<!-- Python 3.13.0 in `~/.pyenv/versions/3.13.0` laden -->
+Python 3.13.0 in `~/.pyenv/versions/3.13.0` laden
 
 ```bash
 pyenv install 3.13.0
 ```
 
-<!-- Virtuelle Umgebung `snake-env` unter `~/.pyenv/versions` erstellen -->
+Virtuelle Umgebung `snake-env` unter `~/.pyenv/versions` erstellen
 
 ```bash
 pyenv virtualenv 3.13.0 snake-env
@@ -20,13 +20,13 @@ pyenv virtualenv 3.13.0 snake-env
 cd ~/projects/snake
 ```
 
-<!-- Projekt mit `snake-env` starten -->
+Projekt mit `snake-env` starten
 
 ```bash
 pyenv local snake-env
 ```
 
-<!-- Dependencies installieren -->
+Dependencies installieren
 
 ```bash
 pip install -r requirements.txt
