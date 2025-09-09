@@ -16,10 +16,10 @@ Create virtual environment `snake-env` in `~/.pyenv/versions` with Python 3.13.0
 pyenv virtualenv 3.13.0 snake-env
 ```
 
-Navigate to project
+Navigate to project (everytime)
 
 ```bash
-cd ~/projects/snake (everytime)
+cd ~/projects/snake
 ```
 
 Start projekt with virtual env `snake-env` (just one time)
@@ -36,7 +36,21 @@ pip install -r requirements.txt
 
 ### Wanna change Python version?
 
-Do ``
+```bash
+pyenv install <new version>
+```
+
+```bash
+pyenv virtualenv <new version> <new virtualenv>
+```
+
+```bash
+cd ~/projects/snake
+```
+
+```bash
+pyenv local <new virtualenv>
+```
 
 ---
 
