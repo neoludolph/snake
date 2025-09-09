@@ -4,34 +4,42 @@
 
 ## Dev Setup
 
-Load Python 3.13.0 in `~/.pyenv/versions/3.13.0` (just one time)
+### First time commands
+
+Load Python 3.13.0 in `~/.pyenv/versions/3.13.0`
 
 ```bash
 pyenv install 3.13.0
 ```
 
-Create virtual environment `snake-env` in `~/.pyenv/versions` with Python 3.13.0 (just one time)
+Create virtual environment `snake-env` in `~/.pyenv/versions` with Python 3.13.0
 
 ```bash
 pyenv virtualenv 3.13.0 snake-env
 ```
 
-Navigate to project (everytime)
+Navigate to project
 
 ```bash
 cd ~/projects/snake
 ```
 
-Start projekt with virtual env `snake-env` (just one time)
+Start projekt with virtual env `snake-env`
 
 ```bash
 pyenv local snake-env
 ```
 
-Install dependencies (just one time)
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
+```
+
+### Everytime command
+
+```bash
+cd ~/projects/snake
 ```
 
 ### Wanna change Python version?
@@ -50,6 +58,10 @@ cd ~/projects/snake
 
 ```bash
 pyenv local <new virtualenv>
+```
+
+```bash
+pip install -r requirements.txt
 ```
 
 ---
