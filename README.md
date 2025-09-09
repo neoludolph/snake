@@ -53,16 +53,16 @@ eval "$(pyenv virtualenv-init -)"
 
 ---
 
-Load Python 3.13.0 in `~/.pyenv/versions/3.13.0`
+Load Python 3.14.0 in `~/.pyenv/versions/3.14.0`
 
 ```bash
-pyenv install 3.13.0
+pyenv install 3.14.0
 ```
 
-Create virtual environment `snake-env` in `~/.pyenv/versions` with Python 3.13.0
+Create virtual environment `snake-env` in `~/.pyenv/versions` with Python 3.14.0
 
 ```bash
-pyenv virtualenv 3.13.0 snake-env
+pyenv virtualenv 3.14.0 snake-env
 ```
 
 Navigate to project
