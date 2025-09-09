@@ -6,10 +6,47 @@
 
 ### First time commands
 
-If not installed
+If pyenv is not installed (Linux)
 
 ```bash
 curl -fsSL https://pyenv.run | bash
+```
+
+If pyenv-virtualenv is not installed (first step is recommended for WSL Users)
+
+```bash
+git config --global core.autocrlf input
+```
+
+```bash
+git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+```
+
+```bash
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+```
+
+```bash
+exec "$SHELL"
+```
+
+MacOS (pyenv)
+
+```bash
+brew update
+brew install pyenv
+```
+
+pyenv-virtualenv
+
+```bash
+brew install pyenv-virtualenv
+```
+
+Do this just once
+
+```bash
+eval "$(pyenv virtualenv-init -)"
 ```
 
 Load Python 3.13.0 in `~/.pyenv/versions/3.13.0`
