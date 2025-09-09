@@ -2,9 +2,15 @@
 
 ---
 
-## Dev Setup
+## Dev Setup (you need Linux or MacOS for development)
 
 ### First time commands
+
+If not installed
+
+```bash
+curl -fsSL https://pyenv.run | bash
+```
 
 Load Python 3.13.0 in `~/.pyenv/versions/3.13.0`
 
