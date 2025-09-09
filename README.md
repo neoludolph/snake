@@ -30,6 +30,8 @@ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
 exec "$SHELL"
 ```
 
+---
+
 MacOS (pyenv)
 
 ```bash
@@ -48,6 +50,8 @@ Do this just once
 ```bash
 eval "$(pyenv virtualenv-init -)"
 ```
+
+---
 
 Load Python 3.13.0 in `~/.pyenv/versions/3.13.0`
 
@@ -79,11 +83,15 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
+---
+
 ### Everytime command
 
 ```bash
 cd ~/projects/snake
 ```
+
+---
 
 ### Wanna change Python version?
 
